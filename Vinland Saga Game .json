@@ -890,7 +890,7 @@
       {
         "file": "assets/NewSprite5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
         "name": "NewSprite5",
         "smoothed": false,
         "userAdded": false
@@ -1299,6 +1299,206 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemies/Skeletons_Free_Pack/Skeleton_Sword/Skeleton_Yellow/Skeleton_Without_VFX/Skeleton_01_Yellow_Attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack10.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack11.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack12.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack13.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack14.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack15.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack16.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack17.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Enemies_Skeletons_Free_Pack_Skeleton_Sword_Skeleton_Yellow_Skeleton_Without_VFX_Skeleton_01_Yellow_Attack18.png\"}",
+        "name": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
+        "name": "NewTiledSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1330,7 +1530,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.689778214010464,
+        "zoomFactor": 1.2952916551236178,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1351,15 +1551,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 37.00000000000001,
+          "depth": 1,
+          "height": 59,
           "keepRatio": true,
           "layer": "",
           "name": "Character",
           "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
-          "width": 50,
-          "x": 29,
-          "y": 186,
+          "width": 80,
+          "x": 44,
+          "y": 176,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1573,23 +1773,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 49,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Enemies",
-          "persistentUuid": "95a1f783-a73e-4771-b3fa-b31050e3ce48",
-          "width": 76,
-          "x": 141,
-          "y": 285,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 32,
           "keepRatio": true,
           "layer": "",
@@ -1734,6 +1917,71 @@
           "x": 902,
           "y": 104,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyHitbox",
+          "persistentUuid": "85dd3ea8-6f1b-4850-a82b-a1508c5ba779",
+          "width": 0,
+          "x": 451,
+          "y": 214,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WalkingEnemyHitbox",
+          "persistentUuid": "eb4dd71f-20a0-4611-8c2a-9f13c732abf3",
+          "width": 0,
+          "x": 421,
+          "y": 271,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemies",
+          "persistentUuid": "24500801-8ee1-4ea3-85ff-1714b3ef7b6b",
+          "width": 76,
+          "x": 145,
+          "y": 279,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "enemy_line_of_sight",
+          "persistentUuid": "6fb454d2-2a6e-486b-8901-b1de35e1719a",
+          "width": 0,
+          "x": 419,
+          "y": 248,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1890,7 +2138,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -1944,7 +2192,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -1998,7 +2246,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2064,7 +2312,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2118,7 +2366,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2172,7 +2420,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2226,7 +2474,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2280,7 +2528,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2334,7 +2582,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2400,7 +2648,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2454,7 +2702,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2508,7 +2756,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2562,7 +2810,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2616,7 +2864,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2670,7 +2918,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2736,7 +2984,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2790,7 +3038,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -2844,8 +3092,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 47,
+                          "y": 20.5
                         }
                       ],
                       "originPoint": {
@@ -2898,8 +3146,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 2.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
@@ -2952,8 +3200,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 2.5,
+                          "y": 29
                         }
                       ],
                       "originPoint": {
@@ -3018,8 +3266,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 7,
+                          "y": 36
                         }
                       ],
                       "originPoint": {
@@ -3072,8 +3320,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 8.5,
+                          "y": 34
                         }
                       ],
                       "originPoint": {
@@ -3126,8 +3374,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 49,
+                          "y": 15.5
                         }
                       ],
                       "originPoint": {
@@ -3180,8 +3428,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 41.5,
+                          "y": 2.5
                         }
                       ],
                       "originPoint": {
@@ -3234,8 +3482,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 16,
+                          "y": 14.5
                         }
                       ],
                       "originPoint": {
@@ -3288,7 +3536,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 19,
                           "y": 19.5
                         }
                       ],
@@ -3354,8 +3602,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 0,
+                          "y": 22.5
                         }
                       ],
                       "originPoint": {
@@ -3408,8 +3656,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 50,
+                          "y": 24.5
                         }
                       ],
                       "originPoint": {
@@ -3462,8 +3710,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 3.5,
+                          "y": 28.5
                         }
                       ],
                       "originPoint": {
@@ -3516,8 +3764,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 0,
+                          "y": 22.5
                         }
                       ],
                       "originPoint": {
@@ -3570,8 +3818,8 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
-                          "y": 19.5
+                          "x": 0,
+                          "y": 21.5
                         }
                       ],
                       "originPoint": {
@@ -3637,7 +3885,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -3691,7 +3939,7 @@
                       "points": [
                         {
                           "name": "WeaponHitPoint",
-                          "x": 46,
+                          "x": 46.5,
                           "y": 19.5
                         }
                       ],
@@ -3837,35 +4085,35 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 16,
-                        "y": 16.5
+                        "x": 13.5,
+                        "y": 16
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 16,
-                        "y": 16.5
+                        "x": 12,
+                        "y": 16
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
+                            "x": 8,
                             "y": 14
                           },
                           {
-                            "x": 18,
+                            "x": 16,
                             "y": 14
                           },
                           {
-                            "x": 18,
+                            "x": 16,
                             "y": 18
                           },
                           {
-                            "x": 14,
+                            "x": 8,
                             "y": 18
                           }
                         ]
@@ -4423,6 +4671,11 @@
               "name": "IsDead",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Enemy_text_state",
+              "type": "string",
+              "value": "\"idle\""
             }
           ],
           "effects": [],
@@ -4469,7 +4722,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile001.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4537,7 +4796,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile002.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4605,7 +4870,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile003.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4673,7 +4944,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile004.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4741,7 +5018,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile005.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4809,7 +5092,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Enemies\\idle\\tile006.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4890,7 +5179,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead11",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4922,7 +5217,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead12",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4954,7 +5255,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead13",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -4986,7 +5293,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead14",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5018,7 +5331,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead15",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5050,7 +5369,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead16",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5082,7 +5407,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead17",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5114,7 +5445,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead18",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5146,7 +5483,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead19",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5178,7 +5521,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "dead20",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 50,
@@ -5210,6 +5559,733 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.11,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack10",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 33.5,
+                          "y": 14.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 50,
+                            "y": 29
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 38
+                          },
+                          {
+                            "x": 40,
+                            "y": 34.5
+                          },
+                          {
+                            "x": 33,
+                            "y": 14
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 22
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 13.5
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 9
+                          },
+                          {
+                            "x": 61,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 62,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 61,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 23
+                          },
+                          {
+                            "x": 67,
+                            "y": 39
+                          },
+                          {
+                            "x": 60,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack11",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 48.5,
+                          "y": 11
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 46,
+                            "y": 9
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 55,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 53,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 45,
+                            "y": 36
+                          },
+                          {
+                            "x": 38,
+                            "y": 34.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack12",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 65,
+                          "y": 13.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.5,
+                            "y": 54
+                          },
+                          {
+                            "x": 39,
+                            "y": 32
+                          },
+                          {
+                            "x": 38,
+                            "y": 27
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 40,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 40,
+                            "y": 13
+                          },
+                          {
+                            "x": 43,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 52,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 52,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 57,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack13",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 32
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39,
+                            "y": 34
+                          },
+                          {
+                            "x": 34,
+                            "y": 25
+                          },
+                          {
+                            "x": 39,
+                            "y": 21
+                          },
+                          {
+                            "x": 39.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 42,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 10.5
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 56,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 53,
+                            "y": 32
+                          },
+                          {
+                            "x": 47,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 46.5,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 50,
+                            "y": 54
+                          },
+                          {
+                            "x": 31,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack14",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 68.5,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 40.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 39.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 42,
+                            "y": 10
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 20
+                          },
+                          {
+                            "x": 57,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 53
+                          },
+                          {
+                            "x": 31,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack15",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 22,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 41,
+                            "y": 22
+                          },
+                          {
+                            "x": 57,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 65,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 16
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 21
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 79,
+                            "y": 30
+                          },
+                          {
+                            "x": 79,
+                            "y": 33
+                          },
+                          {
+                            "x": 65,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 65,
+                            "y": 34
+                          },
+                          {
+                            "x": 77,
+                            "y": 54.5
+                          },
+                          {
+                            "x": 58.5,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack16",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 20.5,
+                          "y": 15.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55.5,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 42,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 53,
+                            "y": 12
+                          },
+                          {
+                            "x": 57,
+                            "y": 7.5
+                          },
+                          {
+                            "x": 65,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 78,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 65,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 75.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 56,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack17",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 22,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 56,
+                            "y": 20
+                          },
+                          {
+                            "x": 53,
+                            "y": 13
+                          },
+                          {
+                            "x": 56,
+                            "y": 8
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 66,
+                            "y": 14.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 79,
+                            "y": 29
+                          },
+                          {
+                            "x": 65,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 67,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 74,
+                            "y": 55
+                          },
+                          {
+                            "x": 56,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Enemies\\Skeletons_Free_Pack\\Skeleton_Sword\\Skeleton_Yellow\\Skeleton_Without_VFX\\Skeleton_01_Yellow_Attack18",
+                      "points": [
+                        {
+                          "name": "EnemyWeaponHitbox",
+                          "x": 27,
+                          "y": 31.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 53.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 45,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 41.5,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 52.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 16.5
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 63,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 65,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 71,
+                            "y": 31
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 62,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 68,
+                            "y": 55
+                          },
+                          {
+                            "x": 49,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5217,7 +6293,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "deadline",
-          "texture": "NewTiledSprite",
+          "texture": "NewTiledSprite4",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -5299,6 +6375,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5373,6 +6454,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5447,6 +6533,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5521,6 +6612,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5595,6 +6691,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5669,6 +6770,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5756,6 +6862,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5830,6 +6941,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5904,6 +7020,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -5978,6 +7099,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6052,6 +7178,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6126,6 +7257,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6200,6 +7336,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6274,6 +7415,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6348,6 +7494,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6422,6 +7573,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6509,6 +7665,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6583,6 +7744,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6657,6 +7823,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6731,6 +7902,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6805,6 +7981,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6879,6 +8060,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -6953,6 +8139,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -7027,6 +8218,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -7101,6 +8297,11 @@
                           "name": "walldetectionPoint",
                           "x": 14,
                           "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 30,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -7191,6 +8392,206 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WalkingEnemyHitbox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 28
+                          },
+                          {
+                            "x": 35,
+                            "y": 28
+                          },
+                          {
+                            "x": 35,
+                            "y": 35
+                          },
+                          {
+                            "x": 28,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "enemy_line_of_sight",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Adjustment",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0,
+                "blue": 0,
+                "brightness": 0,
+                "contrast": 0,
+                "gamma": 0,
+                "green": 0,
+                "red": 0,
+                "saturation": 0
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 58.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 58.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 30
+                          },
+                          {
+                            "x": 59,
+                            "y": 30
+                          },
+                          {
+                            "x": 59,
+                            "y": 33
+                          },
+                          {
+                            "x": 4,
+                            "y": 33
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EnemyHitbox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 35,
+                            "y": 29
+                          },
+                          {
+                            "x": 35,
+                            "y": 35
+                          },
+                          {
+                            "x": 29,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7201,6 +8602,12 @@
           },
           {
             "objectName": "HitBox"
+          },
+          {
+            "objectName": "EnemyHitbox"
+          },
+          {
+            "objectName": "WalkingEnemyHitbox"
           },
           {
             "objectName": "Platform_Ground"
@@ -7218,6 +8625,9 @@
             "objectName": "Enemies"
           },
           {
+            "objectName": "enemy_line_of_sight"
+          },
+          {
             "objectName": "Walking_Enemies"
           },
           {
@@ -7230,6 +8640,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7326,6 +8737,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Colision points"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -7339,6 +8762,42 @@
                 "Character.PointX(\"WeaponHitPoint\")",
                 "=",
                 "Character.PointY(\"WeaponHitPoint\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "EnemyHitbox",
+                "=",
+                "Enemies.PointX(\"EnemyWeaponHitbox\")",
+                "=",
+                "Enemies.PointY(\"EnemyWeaponHitbox\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "WalkingEnemyHitbox",
+                "=",
+                "Walking_Enemies.PointX(\"walkingEnemyAttackHitbox\")",
+                "=",
+                "Walking_Enemies.PointY(\"walkingEnemyAttackHitbox\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "enemy_line_of_sight",
+                "=",
+                "Enemies.PointX(\"walkingEnemyAttackHitbox\")",
+                "=",
+                "Enemies.PointY(\"walkingEnemyAttackHitbox\")"
               ]
             }
           ]
@@ -7399,6 +8858,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "boss behaviour to attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7655,7 +9115,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Attack with multiple animations",
+          "name": "Attack with multiple animations(PLayer Attack Logic)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -8238,6 +9698,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
+          "folded": true,
           "name": "Enemy Kill Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8458,6 +9920,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -8467,6 +9934,252 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "Enemy Kill Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "(Enemy)If hitbox is colliding with enemies and and any of the animation is being played then make sure animation change to dead and is not idle"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HitBox",
+                    "Enemies",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Player_State",
+                    "=",
+                    "\"attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "!=",
+                    "\"dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "enemy_state",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "IsDead",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sound Effect\\enemiesdead.mp3",
+                    "no",
+                    "80",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"dead\""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"dead\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Flash"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Flash",
+                        "2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"dead\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Moving enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8555,6 +10268,18 @@
                       "actions": []
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -8726,6 +10451,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Moving Enemies killed logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9021,298 +10747,442 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "User get Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Enemies",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"HitCoolDown\"",
+                    ">",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "IsDead",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"HitCoolDown\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Enemies.X()",
+                        ">",
+                        "Character.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Character",
+                        "180",
+                        "2000",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Enemies.X()",
+                        "<",
+                        "Character.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Character",
+                        "0",
+                        "2000",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Walking_Enemies",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"HitCoolDown\"",
+                    ">",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Walking_Enemies",
+                    "IsDead",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Character",
+                    "\"HitCoolDown\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Walking_Enemies.X()",
+                        ">",
+                        "Character.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Character",
+                        "180",
+                        "2000",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Walking_Enemies.X()",
+                        "<",
+                        "Character.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Character",
+                        "0",
+                        "2000",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Health",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Character",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"endGame\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Enemies",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Character",
-                "\"HitCoolDown\"",
-                ">",
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Enemies",
-                "IsDead",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Character",
-                "Health",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Character",
-                "\"HitCoolDown\""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Enemies attack logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "when collide create action"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemies.X()",
+                    "EnemyHitbox",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "EnemyHitbox",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Enemies",
                     ">",
-                    "Character.X()"
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "<=",
+                    "8"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "AddForceAL"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "Character",
-                    "180",
-                    "2000",
-                    "0"
+                    "",
+                    "\"endGame\"",
+                    ""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Enemies.X()",
-                    "<",
-                    "Character.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Character",
-                    "0",
-                    "2000",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Walking_Enemies",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Character",
-                "\"HitCoolDown\"",
-                ">",
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Walking_Enemies",
-                "IsDead",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Character",
-                "Health",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Character",
-                "\"HitCoolDown\""
               ]
             }
           ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Walking_Enemies.X()",
-                    ">",
-                    "Character.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Character",
-                    "180",
-                    "2000",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Walking_Enemies.X()",
-                    "<",
-                    "Character.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Character",
-                    "0",
-                    "2000",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Character",
-                "Health",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Character",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"endGame\"",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
