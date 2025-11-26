@@ -1495,7 +1495,7 @@
       {
         "file": "assets/NewSprite10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
         "name": "NewSprite10",
         "smoothed": false,
         "userAdded": false
@@ -1659,6 +1659,40 @@
         "name": "attack19",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bone-break-sound-269658.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bone-break-sound-269658.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1668,7 +1702,18 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Coin",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PlayerHealth",
+      "type": "number",
+      "value": 5
+    }
+  ],
   "layouts": [
     {
       "b": 229,
@@ -1690,7 +1735,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2952916551236178,
+        "zoomFactor": 1.0973679695629739,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1740,8 +1785,8 @@
           "name": "Background",
           "persistentUuid": "9d4a2623-239c-44d1-95a4-076307aa3170",
           "width": 3456,
-          "x": -322,
-          "y": -293,
+          "x": -358,
+          "y": -291,
           "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2094,6 +2139,38 @@
           "x": 410,
           "y": 273,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Score",
+          "persistentUuid": "5d4d947f-7aa9-41cb-951a-3f36b0b75159",
+          "width": 0,
+          "x": 6,
+          "y": 11,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "health",
+          "persistentUuid": "c4d460d5-f982-4cdc-af64-704f1d3604d5",
+          "width": 0,
+          "x": 151,
+          "y": 7,
+          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4168,6 +4245,12 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            },
+            {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -4793,6 +4876,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "Flash",
               "type": "Flash::Flash",
               "HalfPeriodTime": 0.2,
@@ -4800,21 +4884,37 @@
               "FlashDuration": 0
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            },
+            {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 50000,
+              "canGoDownFromJumpthru": false,
+              "ignoreDefaultControls": true,
+              "jumpSustainTime": 0.2,
+              "maxSpeed": 0,
+              "slopeMaxAngle": 0,
               "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": false,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
               "jumpSpeed": 0,
-              "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 0,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -4836,8 +4936,13 @@
                       "image": "assets\\Enemies\\idle\\tile001.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -4910,8 +5015,13 @@
                       "image": "assets\\Enemies\\idle\\tile002.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -4984,8 +5094,13 @@
                       "image": "assets\\Enemies\\idle\\tile003.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -5058,8 +5173,13 @@
                       "image": "assets\\Enemies\\idle\\tile004.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -5132,8 +5252,13 @@
                       "image": "assets\\Enemies\\idle\\tile005.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -5206,8 +5331,13 @@
                       "image": "assets\\Enemies\\idle\\tile006.png",
                       "points": [
                         {
-                          "name": "EnemyWeaponHitbox",
+                          "name": "Front_enemyHitpoint",
                           "x": 29,
+                          "y": 52.5
+                        },
+                        {
+                          "name": "back_enemyHitpoint",
+                          "x": 84,
                           "y": 52.5
                         }
                       ],
@@ -8739,24 +8869,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [
-            {
-              "effectType": "Adjustment",
-              "name": "Effect",
-              "doubleParameters": {
-                "alpha": 0,
-                "blue": 0,
-                "brightness": 0,
-                "contrast": 0,
-                "gamma": 0,
-                "green": 0,
-                "red": 0,
-                "saturation": 0
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -8770,36 +8883,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite8",
+                      "image": "NewSprite12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 58.5,
-                        "y": 31.5
+                        "x": 58,
+                        "y": 9.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 58.5,
-                        "y": 31.5
+                        "x": 58,
+                        "y": 9.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 30
+                            "x": 1,
+                            "y": 7
                           },
                           {
-                            "x": 59,
-                            "y": 30
+                            "x": 119,
+                            "y": 7
                           },
                           {
-                            "x": 59,
-                            "y": 33
+                            "x": 119,
+                            "y": 12
                           },
                           {
-                            "x": 4,
-                            "y": 33
+                            "x": 1,
+                            "y": 12
                           }
                         ]
                       ]
@@ -8816,7 +8929,13 @@
           "name": "EnemyHitbox",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "is_back_hitbox_hit",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -8870,6 +8989,153 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Score: 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "health",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Health: 5",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 255,
+            "r": 4
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Health: 5",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "4;255;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EnemyHitboxRight",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 28
+                          },
+                          {
+                            "x": 35,
+                            "y": 28
+                          },
+                          {
+                            "x": 35,
+                            "y": 35
+                          },
+                          {
+                            "x": 28,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8883,6 +9149,9 @@
           },
           {
             "objectName": "EnemyHitbox"
+          },
+          {
+            "objectName": "EnemyHitboxRight"
           },
           {
             "objectName": "WalkingEnemyHitbox"
@@ -8901,6 +9170,12 @@
           },
           {
             "objectName": "Enemies"
+          },
+          {
+            "objectName": "Score"
+          },
+          {
+            "objectName": "health"
           },
           {
             "objectName": "enemy_line_of_sight"
@@ -8985,9 +9260,21 @@
                   "parameters": [
                     "",
                     "EnemyHitbox",
-                    "Enemies.PointX(\"EnemyWeaponHitbox\")",
-                    "Enemies.PointY(\"EnemyWeaponHitbox\")",
+                    "Enemies.PointX(\"Front_enemyHitpoint\")",
+                    "Enemies.PointY(\"Front_enemyHitpoint\")",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Score",
+                    "Background.X()",
+                    "Background.Y()",
+                    "\"Background\""
                   ]
                 }
               ],
@@ -8998,16 +9285,85 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyHitboxRight",
+                        "Enemies.PointX(\"back_enemyHitpoint\")",
+                        "Enemies.PointY(\"back_enemyHitpoint\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
                         "value": "LinkedObjects::LinkObjects"
                       },
                       "parameters": [
                         "",
+                        "EnemyHitbox",
+                        "Enemies"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyHitboxRight",
+                        "Enemies"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
                         "Enemies",
-                        "EnemyHitbox"
+                        "Enemy_text_state",
+                        "=",
+                        "\"idle\""
                       ]
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Boss",
+                "Enemies",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Enemies",
+                "Pathfinding",
+                "",
+                "Character.X()",
+                "Character.Y(\"0\")"
               ]
             }
           ]
@@ -9328,6 +9684,27 @@
                 "CoinsRemaining",
                 "-",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Coin",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"Score: \"+ Coin"
               ]
             }
           ]
@@ -10356,80 +10733,6 @@
               ]
             },
             {
-              "disabled": true,
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "Animation",
-                    "=",
-                    "\"dead\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Sprite"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Flash::Flash::Flash"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Flash",
-                        "2",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11004,47 +11307,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "If fall reset"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "deadline",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"endGame\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -11055,6 +11317,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11101,22 +11364,32 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Character",
-                    "Health",
+                    "\"HitCoolDown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerHealth",
                     "-",
                     "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ResetObjectTimer"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Character",
-                    "\"HitCoolDown\""
+                    "health",
+                    "Text",
+                    "=",
+                    "\"Health: \"+ PlayerHealth"
                   ]
                 }
               ],
@@ -11180,6 +11453,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11226,22 +11500,32 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Character",
-                    "Health",
+                    "\"HitCoolDown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerHealth",
                     "-",
                     "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ResetObjectTimer"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Character",
-                    "\"HitCoolDown\""
+                    "health",
+                    "Text",
+                    "=",
+                    "\"Health: \" + PlayerHealth"
                   ]
                 }
               ],
@@ -11349,7 +11633,9 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Enemies attack logic",
+          "disabled": true,
+          "folded": true,
+          "name": "Front Enemies attack logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11422,9 +11708,14 @@
                             },
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::Once"
+                                "value": "StringObjectVariable"
                               },
-                              "parameters": []
+                              "parameters": [
+                                "Enemies",
+                                "Enemy_text_state",
+                                "=",
+                                "\"idle\""
+                              ]
                             }
                           ],
                           "actions": [
@@ -11452,12 +11743,12 @@
                             },
                             {
                               "type": {
-                                "value": "PickNearest"
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
                               },
                               "parameters": [
                                 "Enemies",
-                                "Enemies.PointX(\"EnemyWeaponHitbox\")",
-                                "Enemies.PointY(\"EnemyWeaponHitbox\")"
+                                "Flippable",
+                                "no"
                               ]
                             }
                           ]
@@ -11524,17 +11815,52 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Scene"
+                                "value": "MettreXY"
                               },
                               "parameters": [
-                                "",
-                                "\"endGame\"",
-                                ""
+                                "Character",
+                                "=",
+                                "44",
+                                "=",
+                                "150"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PlayerHealth",
+                                "-",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "health",
+                                "Text",
+                                "=",
+                                "\"Health: \"+ PlayerHealth"
                               ]
                             }
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Attack Start/End"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -11608,6 +11934,942 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "BACK Enemies attack logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "IsDead",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "EnemyHitboxRight",
+                            "Enemies",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "when collide create action"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "EnemyHitboxRight",
+                                "Character",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Enemy_text_state",
+                                "=",
+                                "\"idle\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Enemy_text_state",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Character getting attack by enemy"
+                        },
+                        {
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Character",
+                                "EnemyHitbox",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Sprite"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                ">",
+                                "5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Sprite"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "<=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Enemy_text_state",
+                                "=",
+                                "\"attack\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "MettreXY"
+                              },
+                              "parameters": [
+                                "Character",
+                                "=",
+                                "44",
+                                "=",
+                                "150"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PlayerHealth",
+                                "-",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "health",
+                                "Text",
+                                "=",
+                                "\"Health: \"+ PlayerHealth"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Attack Start/End"
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Enemy_text_state",
+                            "=",
+                            "\"attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "IsDead",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Enemy_text_state",
+                            "=",
+                            "\"idle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Animation",
+                            "=",
+                            "\"idle\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
+          "folded": true,
+          "name": "back enemy attack logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "IsDead",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "EnemyHitboxRight",
+                            "Enemies",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "EnemyHitboxRight",
+                                "Character",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Flippable",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Enemy_text_state",
+                                "=",
+                                "\"idle\""
+                              ]
+                            }
+                          ],
+                          "actions": []
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "Enemies.X()",
+                                    "<",
+                                    "Character.X()"
+                                  ]
+                                }
+                              ],
+                              "actions": []
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "Animation",
+                                    "=",
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetStringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "Enemy_text_state",
+                                    "=",
+                                    "\"attack\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "Enemies.X()",
+                                    ">",
+                                    "Character.X()"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "Flippable",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionNP"
+                                      },
+                                      "parameters": [
+                                        "Character",
+                                        "EnemyHitboxRight",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Sprite"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        ">",
+                                        "5"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Sprite"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        "<",
+                                        "9"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "PlayerHealth",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                      },
+                                      "parameters": [
+                                        "health",
+                                        "Text",
+                                        "=",
+                                        "\"Health: \" + PlayerHealth"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Enemy_text_state",
+                            "=",
+                            "\"attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "IsDead",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Reset level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If fall reset"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "deadline",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerHealth",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"endGame\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": true,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Enemies",
+                "IsDead",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemies",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyHitboxRight",
+                        "Enemies",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Character",
+                            "EnemyHitboxRight",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "IsDead",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Flippable",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Animation",
+                            "=",
+                            "\"attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Enemy_text_state",
+                            "=",
+                            "\"attack\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "EnemyHitboxRight",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        ">",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "<=",
+                        "8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Enemy_text_state",
+                        "=",
+                        "\"attack\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Character",
+                        "=",
+                        "44",
+                        "=",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerHealth",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "health",
+                        "Text",
+                        "=",
+                        "\"Health: \"+ PlayerHealth"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SeDirige"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Character",
+                    "100",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "EnemyHitboxRight",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Enemies",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -11667,7 +12929,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "MobileControls",
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -11700,6 +12962,14 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -11726,6 +12996,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
