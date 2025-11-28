@@ -1,7 +1,7 @@
 {
   "firstLayout": "Game Scene",
   "gdVersion": {
-    "build": 246,
+    "build": 247,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1784,6 +1784,102 @@
         "name": "assets\\SLIDE\\adventurer-stand-02-1.3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite15.png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/attack29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack29",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1854,7 +1950,7 @@
           "name": "Background",
           "persistentUuid": "9d4a2623-239c-44d1-95a4-076307aa3170",
           "width": 3456,
-          "x": -232,
+          "x": -233,
           "y": -326,
           "zOrder": -10,
           "numberProperties": [],
@@ -2403,23 +2499,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 54,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Walking_Enemies",
-          "persistentUuid": "c77ecba6-a8ff-4bc3-b86e-8542e8dadd24",
-          "width": 85,
-          "x": 434,
-          "y": 286,
-          "zOrder": 210,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 28,
           "keepRatio": true,
           "layer": "arrowDirection",
@@ -2513,6 +2592,23 @@
           "x": 979,
           "y": 133,
           "zOrder": 215,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walking_Enemies",
+          "persistentUuid": "58ffdea7-5547-49aa-9476-8eaaec3d422e",
+          "width": 87,
+          "x": 456,
+          "y": 284,
+          "zOrder": 216,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5199,9 +5295,9 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -5853,6 +5949,8 @@
               "yGrabOffset": 0
             },
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 200,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -5862,9 +5960,7 @@
               "ignoreDefaultControls": true,
               "maxSpeed": 50,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": false,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "useLegacyTurnBack": false,
               "viewpoint": "TopDown"
             }
@@ -8452,6 +8548,11 @@
               "name": "IsDead",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "walking_enemy_text_state",
+              "type": "string",
+              "value": "\"idle\""
             }
           ],
           "effects": [],
@@ -8464,11 +8565,11 @@
               "FlashDuration": 0
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 30,
               "canGoDownFromJumpthru": false,
               "deceleration": 1000,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxSpeed": 50,
               "xGrabTolerance": 10,
               "canGrabPlatforms": false,
@@ -10499,6 +10600,941 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack20",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 33.5,
+                          "y": 14.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.5,
+                            "y": 38
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 47,
+                            "y": 55.5
+                          },
+                          {
+                            "x": 59.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 55.5
+                          },
+                          {
+                            "x": 60.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 67,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 23
+                          },
+                          {
+                            "x": 62,
+                            "y": 10.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 13
+                          },
+                          {
+                            "x": 43,
+                            "y": 35.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack21",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 49.5,
+                          "y": 9.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.5,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 34.5
+                          },
+                          {
+                            "x": 44,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 13
+                          },
+                          {
+                            "x": 47,
+                            "y": 7.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 9
+                          },
+                          {
+                            "x": 56,
+                            "y": 15
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 61,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 35
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack22",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 65.5,
+                          "y": 13.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.5,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 27.5
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 39.5,
+                            "y": 15.5
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 7.5
+                          },
+                          {
+                            "x": 52.5,
+                            "y": 10
+                          },
+                          {
+                            "x": 52,
+                            "y": 16.5
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 21
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 35
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 27.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 37
+                          },
+                          {
+                            "x": 50.5,
+                            "y": 54
+                          },
+                          {
+                            "x": 33,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack23",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 68.5,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 38,
+                            "y": 37
+                          },
+                          {
+                            "x": 37.5,
+                            "y": 28
+                          },
+                          {
+                            "x": 34.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 40.5,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 39.5,
+                            "y": 16
+                          },
+                          {
+                            "x": 41.5,
+                            "y": 10
+                          },
+                          {
+                            "x": 47,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 52,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 28
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 28
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 54
+                          },
+                          {
+                            "x": 30.5,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack24",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 68,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 38,
+                            "y": 36
+                          },
+                          {
+                            "x": 38,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 35,
+                            "y": 25
+                          },
+                          {
+                            "x": 40,
+                            "y": 22
+                          },
+                          {
+                            "x": 40.5,
+                            "y": 11
+                          },
+                          {
+                            "x": 47,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 28
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 27.5
+                          },
+                          {
+                            "x": 46.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 53
+                          },
+                          {
+                            "x": 31,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack25",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 22,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54.5,
+                            "y": 25
+                          },
+                          {
+                            "x": 45,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 47,
+                            "y": 20
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 20
+                          },
+                          {
+                            "x": 53,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 57,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 7.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 10
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 69.5,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 33
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 65,
+                            "y": 30
+                          },
+                          {
+                            "x": 66.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 77,
+                            "y": 55
+                          },
+                          {
+                            "x": 58.5,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack26",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 20.5,
+                          "y": 15.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 23.5
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 55,
+                            "y": 21
+                          },
+                          {
+                            "x": 54.5,
+                            "y": 7.5
+                          },
+                          {
+                            "x": 58.5,
+                            "y": 7
+                          },
+                          {
+                            "x": 65,
+                            "y": 9
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 14.5
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 79.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 77.5,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 32
+                          },
+                          {
+                            "x": 76,
+                            "y": 56
+                          },
+                          {
+                            "x": 57,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack27",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 21.5,
+                          "y": 17.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54.5,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 46.5,
+                            "y": 20
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 53.5,
+                            "y": 15.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 58.5,
+                            "y": 7
+                          },
+                          {
+                            "x": 65,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 66,
+                            "y": 15.5
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 25
+                          },
+                          {
+                            "x": 79.5,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 34.5
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 55.5,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack28",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 28,
+                          "y": 16.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 53,
+                            "y": 36
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 68,
+                            "y": 55
+                          },
+                          {
+                            "x": 63.5,
+                            "y": 39.5
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 72.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 72,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 19
+                          },
+                          {
+                            "x": 64,
+                            "y": 14
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 58.5,
+                            "y": 7
+                          },
+                          {
+                            "x": 54,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 13
+                          },
+                          {
+                            "x": 52.5,
+                            "y": 19.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 27
+                          },
+                          {
+                            "x": 46.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack29",
+                      "points": [
+                        {
+                          "name": "walldetectionPoint",
+                          "x": 14,
+                          "y": 31
+                        },
+                        {
+                          "name": "walkingEnemyAttackHitbox",
+                          "x": 33.5,
+                          "y": 15
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 50,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.5,
+                            "y": 38
+                          },
+                          {
+                            "x": 51.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 47,
+                            "y": 55.5
+                          },
+                          {
+                            "x": 59.5,
+                            "y": 55
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 55.5
+                          },
+                          {
+                            "x": 60.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 67,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 64.5,
+                            "y": 23
+                          },
+                          {
+                            "x": 62,
+                            "y": 10.5
+                          },
+                          {
+                            "x": 58,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 54,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 51,
+                            "y": 13
+                          },
+                          {
+                            "x": 43,
+                            "y": 35.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10824,7 +11860,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite13",
+                      "image": "NewSprite16",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10840,19 +11876,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 28,
-                            "y": 28
+                            "x": 29,
+                            "y": 29
                           },
                           {
                             "x": 35,
-                            "y": 28
+                            "y": 29
                           },
                           {
                             "x": 35,
                             "y": 35
                           },
                           {
-                            "x": 28,
+                            "x": 29,
                             "y": 35
                           }
                         ]
@@ -11166,10 +12202,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -11321,23 +12357,168 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Create"
               },
               "parameters": [
-                "EnemyHitboxLeft"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "EnemyHitboxRight"
+                "",
+                "Score",
+                "Background.X()",
+                "Background.Y()",
+                "\"Background\""
               ]
             }
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Walking_Enemies",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "WalkingEnemyHitbox",
+                    "Walking_Enemies.PointX(\"walkingEnemyAttackHitbox\")",
+                    "Walking_Enemies.PointY(\"walkingEnemyAttackHitbox\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "WalkingEnemyHitbox",
+                    "Walking_Enemies"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Walking_Enemies",
+                "IsDead",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Walking_Enemies",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "WalkingEnemyHitbox",
+                        "Walking_Enemies",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "WalkingEnemyHitbox",
+                            "=",
+                            "Walking_Enemies.PointX(\"walkingEnemyAttackHitbox\")",
+                            "=",
+                            "Walking_Enemies.PointY(\"walkingEnemyAttackHitbox\")"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Character",
+                            "Walking_Enemies",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Walking_Enemies",
+                            "walking_enemy_text_state",
+                            "=",
+                            "\"attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Walking_Enemies",
+                            "Animation",
+                            "=",
+                            "\"attack\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemies",
           "conditions": [
@@ -11375,18 +12556,6 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Score",
-                "Background.X()",
-                "Background.Y()",
-                "\"Background\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetStringObjectVariable"
               },
               "parameters": [
@@ -11394,18 +12563,6 @@
                 "Enemy_text_state",
                 "=",
                 "\"idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "EnemyHitboxLeft",
-                "Walking_Enemies.PointX(\"walkingEnemyAttackHitbox\")",
-                "Walking_Enemies.PointY(\"walkingEnemyAttackHitbox\")",
-                ""
               ]
             }
           ],
@@ -11422,16 +12579,6 @@
                     "",
                     "EnemyHitboxLeft",
                     "Enemies"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "EnemyHitboxLeft",
-                    "Walking_Enemies"
                   ]
                 }
               ]
@@ -11455,6 +12602,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemies",
           "conditions": [],
@@ -11541,18 +12689,6 @@
                 "Character.PointX(\"WeaponHitPoint\")",
                 "=",
                 "Character.PointY(\"WeaponHitPoint\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "WalkingEnemyHitbox",
-                "=",
-                "Walking_Enemies.PointX(\"walkingEnemyAttackHitbox\")",
-                "=",
-                "Walking_Enemies.PointY(\"walkingEnemyAttackHitbox\")"
               ]
             },
             {
@@ -12217,6 +13353,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13931,7 +15068,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Front Enemies attack logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
