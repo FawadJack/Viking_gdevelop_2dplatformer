@@ -3232,6 +3232,65 @@
         "name": "hurt13",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/heart5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/heart6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/heart6.png\"}",
+        "name": "heart6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/heart7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/heart7.png\"}",
+        "name": "heart7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/heart8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/heart8.png\"}",
+        "name": "heart8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/heart9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/heart9.png\"}",
+        "name": "heart9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -3249,7 +3308,7 @@
     {
       "name": "PlayerHealth",
       "type": "number",
-      "value": 5
+      "value": 4
     },
     {
       "name": "BossHealthh",
@@ -3285,7 +3344,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1726229638178731,
+        "zoomFactor": 0.737081631799472,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3425,8 +3484,8 @@
           "name": "health",
           "persistentUuid": "c4d460d5-f982-4cdc-af64-704f1d3604d5",
           "width": 0,
-          "x": 151,
-          "y": 7,
+          "x": 276,
+          "y": 2,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -3462,23 +3521,6 @@
           "x": 5998,
           "y": -130,
           "zOrder": 214,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 30,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "BossHealth",
-          "persistentUuid": "9b9d7f8f-c5d6-4d39-b3c4-95386fe2e962",
-          "width": 128,
-          "x": 289,
-          "y": 24,
-          "zOrder": 219,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5643,6 +5685,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "health2",
+          "persistentUuid": "0f61d358-359b-4934-8dff-ad8d350b5740",
+          "width": 0,
+          "x": 419,
+          "y": -2,
+          "zOrder": 258,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5684,6 +5742,7 @@
               "WasJumpKeyReleased": false
             },
             {
+              "isFolded": true,
               "name": "HorizontalDash",
               "type": "AdvancedJump::HorizontalDash",
               "PlatformerCharacter": "PlatformerObject",
@@ -5709,6 +5768,7 @@
               "PlatformerCharacter": "PlatformerObject"
             },
             {
+              "gravity": 700,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "canGrabPlatforms": false,
@@ -5718,7 +5778,6 @@
               "acceleration": 500,
               "deceleration": 1200,
               "slopeMaxAngle": 60,
-              "gravity": 525,
               "maxSpeed": 200,
               "canGoDownFromJumpthru": true,
               "canGrabWithoutMoving": false,
@@ -15489,10 +15548,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Health: 5",
-          "font": "",
+          "string": "Health: ",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 255,
@@ -15512,11 +15571,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Health: 5",
-            "font": "",
+            "text": "Health: ",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 30,
+            "characterSize": 40,
             "lineHeight": 0,
             "color": "4;255;0"
           }
@@ -16901,6 +16960,175 @@
             "tileSize": 8,
             "tilesWithHitBox": "1722,1772,1723,1773,1724,1774"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "health2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "heart5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 50
+                          },
+                          {
+                            "x": 37,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 50
+                          },
+                          {
+                            "x": 37,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 50
+                          },
+                          {
+                            "x": 37,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 37,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 13
+                          },
+                          {
+                            "x": 233,
+                            "y": 50
+                          },
+                          {
+                            "x": 37,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16947,6 +17175,9 @@
           },
           {
             "objectName": "Score"
+          },
+          {
+            "objectName": "health2"
           },
           {
             "objectName": "health"
@@ -17123,6 +17354,99 @@
               },
               "parameters": [
                 "WalkingEnemyHitbox"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Health"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerHealth",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "health2",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerHealth",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "health2",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerHealth",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "health2",
+                "=",
+                "3"
               ]
             }
           ]
@@ -18010,7 +18334,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18599,6 +18922,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Kill Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19837,7 +20161,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "User get Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
