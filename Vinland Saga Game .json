@@ -3346,6 +3346,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
           "name": "CaesarDressing-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/factanswers.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "factanswers",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3399,7 +3415,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 4.274424404048278,
+        "zoomFactor": 0.5117784035210663,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5794,6 +5810,54 @@
               "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-2147481921,-2147481922,-2147481923,-2147481924,-2147481925,-2147481926],[-2147481871,-2147481872,-2147481873,-2147481874,-2147481875,-2147481876]]}]}"
             }
           ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "4cb15ef6-c1fc-4d8f-bc0d-ef5c8e1d18b1",
+          "width": 0,
+          "x": 4608,
+          "y": 46,
+          "zOrder": 259,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "345dfd19-bcd6-4b4c-87b2-dbb022951bbe",
+          "width": 0,
+          "x": 4744,
+          "y": 11,
+          "zOrder": 260,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "6b69ed60-241c-4724-93b9-bb2d74c333cb",
+          "width": 0,
+          "x": 5128,
+          "y": 567,
+          "zOrder": 261,
+          "numberProperties": [],
+          "stringProperties": [],
           "initialVariables": []
         }
       ],
@@ -17223,6 +17287,116 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fact",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fact",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite34",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 43
+                          },
+                          {
+                            "x": 19,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "factanswers",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "factanswers",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 43
+                          },
+                          {
+                            "x": 19,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17320,6 +17494,9 @@
           },
           {
             "objectName": "wooden"
+          },
+          {
+            "objectName": "fact"
           }
         ]
       },
@@ -22765,6 +22942,42 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Fact logic"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "fact",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "fact",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -23040,12 +23253,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32509280756043113,
+        "zoomFactor": 0.3712099353539117,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -23061,8 +23276,8 @@
           "name": "Game_Over",
           "persistentUuid": "3ee6de23-a60d-480b-8f7e-dc513865202b",
           "width": 0,
-          "x": 1036,
-          "y": 237,
+          "x": 948,
+          "y": 350,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24203,6 +24418,115 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "quiz",
+      "name": "quiz",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.11666666666666667,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
