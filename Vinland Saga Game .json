@@ -3362,6 +3362,82 @@
         "name": "factanswers",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Confirm_03.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Confirm_03.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/confirmation_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\confirmation_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Buff 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Buff 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Debuff 7.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Debuff 7.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -24422,8 +24498,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "quiz",
-      "name": "quiz",
+      "mangledName": "Quiz_32Setup",
+      "name": "Quiz Setup",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -24441,22 +24517,2143 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11666666666666667,
+        "zoomFactor": 0.5363983565864004,
         "windowMask": false,
         "selectedLayer": ""
       },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
+      "objectsGroups": [
+        {
+          "name": "Buttons",
+          "objects": [
+            {
+              "name": "Button1"
+            },
+            {
+              "name": "Button2"
+            },
+            {
+              "name": "Button3"
+            },
+            {
+              "name": "Button4"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Questions",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "VinlandGames",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "What event motivates Thorfinn to leave Iceland at a young age?"
+                },
+                {
+                  "type": "string",
+                  "value": "What was Thors known for before becoming a peaceful farmer?"
+                },
+                {
+                  "type": "string",
+                  "value": "What central theme shapes Thorfinn’s development after his years as a warrior?"
+                },
+                {
+                  "type": "string",
+                  "value": "Vikings primarily used which type of ship for exploration and raiding?"
+                },
+                {
+                  "type": "string",
+                  "value": "What was a major reason for Viking expansion across Europe?"
+                },
+                {
+                  "type": "string",
+                  "value": "Thorfinn follows which moral principle after leaving the battlefield?"
+                },
+                {
+                  "type": "string",
+                  "value": "What major trading center connected Vikings to the Islamic world?"
+                },
+                {
+                  "type": "string",
+                  "value": "Leif Erikson is known for what achievement?"
+                },
+                {
+                  "type": "string",
+                  "value": "What ethical dilemma does Thorfinn confront after becoming a farmer?"
+                },
+                {
+                  "type": "string",
+                  "value": "What was a common Viking trade item?"
+                },
+                {
+                  "type": "string",
+                  "value": "In Norse society, what was a thing?"
+                },
+                {
+                  "type": "string",
+                  "value": "Who is Askeladd in Thorfinn’s story?"
+                },
+                {
+                  "type": "string",
+                  "value": "Which belief system influenced some Vikings during Thorfinn’s era?"
+                },
+                {
+                  "type": "string",
+                  "value": "What does Thorfinn hope to build in Vinland?"
+                },
+                {
+                  "type": "string",
+                  "value": "What lesson from Thors does Thorfinn finally embrace?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Answers",
+          "type": "structure",
+          "children": [
+            {
+              "name": "0",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "His father’s death"
+                },
+                {
+                  "type": "string",
+                  "value": "Desire to become a merchant"
+                },
+                {
+                  "type": "string",
+                  "value": "A dream of finding Vinland"
+                },
+                {
+                  "type": "string",
+                  "value": "Curiosity about the Christian faith"
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "“A true warrior needs no sword.”"
+                },
+                {
+                  "type": "string",
+                  "value": "“Strength decides everything.”"
+                },
+                {
+                  "type": "string",
+                  "value": "“Revenge is honorable.”"
+                },
+                {
+                  "type": "string",
+                  "value": "“Never trust anyone outside the clan.”"
+                }
+              ]
+            },
+            {
+              "name": "10",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Karls (free farmers)"
+                },
+                {
+                  "type": "string",
+                  "value": "Thralls (slaves)"
+                },
+                {
+                  "type": "string",
+                  "value": "Jarls (nobility)"
+                },
+                {
+                  "type": "string",
+                  "value": "Völvas (seers)"
+                }
+              ]
+            },
+            {
+              "name": "11",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "A peaceful settlement free from slavery and war"
+                },
+                {
+                  "type": "string",
+                  "value": "A massive Viking fortress"
+                },
+                {
+                  "type": "string",
+                  "value": "A gold mining colony"
+                },
+                {
+                  "type": "string",
+                  "value": "A monastery for travelers"
+                }
+              ]
+            },
+            {
+              "name": "12",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Longship"
+                },
+                {
+                  "type": "string",
+                  "value": "Galleon"
+                },
+                {
+                  "type": "string",
+                  "value": "Ironclad"
+                },
+                {
+                  "type": "string",
+                  "value": "Trireme"
+                }
+              ]
+            },
+            {
+              "name": "13",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Overcoming hatred and guilt"
+                },
+                {
+                  "type": "string",
+                  "value": "Learning to command an army"
+                },
+                {
+                  "type": "string",
+                  "value": "Protecting treasure from rivals"
+                },
+                {
+                  "type": "string",
+                  "value": "Becoming a master sailor"
+                }
+              ]
+            },
+            {
+              "name": "14",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Hope for a new world built on peace"
+                },
+                {
+                  "type": "string",
+                  "value": "A kingdom of endless warriors"
+                },
+                {
+                  "type": "string",
+                  "value": "A land of divine punishment"
+                },
+                {
+                  "type": "string",
+                  "value": "A treasure-rich paradise"
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Trading across Europe and Asia"
+                },
+                {
+                  "type": "string",
+                  "value": "Building massive stone monuments"
+                },
+                {
+                  "type": "string",
+                  "value": "Using cannons in naval warfare"
+                },
+                {
+                  "type": "string",
+                  "value": "Establishing centralized kingdoms"
+                }
+              ]
+            },
+            {
+              "name": "3",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Askeladd"
+                },
+                {
+                  "type": "string",
+                  "value": "Canute"
+                },
+                {
+                  "type": "string",
+                  "value": "Floki"
+                },
+                {
+                  "type": "string",
+                  "value": "Bjorn"
+                }
+              ]
+            },
+            {
+              "name": "4",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "He gives up violence to become a peaceful farmer"
+                },
+                {
+                  "type": "string",
+                  "value": "He becomes a Viking king"
+                },
+                {
+                  "type": "string",
+                  "value": "He becomes a traveling bard"
+                },
+                {
+                  "type": "string",
+                  "value": "He joins a monastery"
+                }
+              ]
+            },
+            {
+              "name": "5",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "A fertile land far west, associated with North America"
+                },
+                {
+                  "type": "string",
+                  "value": "A land of sacred Viking burial mounds"
+                },
+                {
+                  "type": "string",
+                  "value": "A snowy mountain homeland"
+                },
+                {
+                  "type": "string",
+                  "value": "A mythical island ruled by gods"
+                }
+              ]
+            },
+            {
+              "name": "6",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "The cycle of violence and forgiveness"
+                },
+                {
+                  "type": "string",
+                  "value": "The superiority of Viking bloodlines"
+                },
+                {
+                  "type": "string",
+                  "value": "The importance of strict loyalty to violence"
+                },
+                {
+                  "type": "string",
+                  "value": "The value of hoarding treasure"
+                }
+              ]
+            },
+            {
+              "name": "7",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Both mentor and enemy"
+                },
+                {
+                  "type": "string",
+                  "value": "His long-lost brother"
+                },
+                {
+                  "type": "string",
+                  "value": "A wandering healer"
+                },
+                {
+                  "type": "string",
+                  "value": "A rival farmer"
+                }
+              ]
+            },
+            {
+              "name": "8",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "The Baltic Sea to Constantinople"
+                },
+                {
+                  "type": "string",
+                  "value": "The Silk Road through India"
+                },
+                {
+                  "type": "string",
+                  "value": "The Roman Mediterranean coast"
+                },
+                {
+                  "type": "string",
+                  "value": "The Sahara desert caravan path"
+                }
+              ]
+            },
+            {
+              "name": "9",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "He realizes violence creates endless suffering"
+                },
+                {
+                  "type": "string",
+                  "value": "He loses the ability to fight"
+                },
+                {
+                  "type": "string",
+                  "value": "He discovers a hidden prophecy"
+                },
+                {
+                  "type": "string",
+                  "value": "He makes a vow to become a king"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MainScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "QuestionSelect",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ButtonPressed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AnswerSelected",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 806,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "8b4d4ef6-6948-4241-ad59-6f16b9932d31",
+          "width": 1862,
+          "x": -2,
+          "y": -3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Question",
+          "persistentUuid": "b6dd285c-625c-4178-a0b7-d624fa21673c",
+          "width": 0,
+          "x": 837,
+          "y": 50,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 67.13286713286713,
+          "height": 150,
+          "layer": "",
+          "name": "Button1",
+          "persistentUuid": "0c62fe84-0f4b-46e2-a103-bcb8dc183f03",
+          "width": 300,
+          "x": 220,
+          "y": 380,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 150,
+          "layer": "",
+          "name": "Button2",
+          "persistentUuid": "ee2227fe-1177-485a-8acb-cf9ca416bf2f",
+          "width": 300,
+          "x": 600,
+          "y": 380,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 72.45283018867924,
+          "height": 150,
+          "layer": "",
+          "name": "Button3",
+          "persistentUuid": "bc71af77-2461-48af-b596-be7f8ddd3c37",
+          "width": 300,
+          "x": 1000,
+          "y": 380,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 68.08510638297872,
+          "height": 150,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Button4",
+          "persistentUuid": "0e0b1acb-b197-494b-8af3-ccb225dafa52",
+          "width": 313.82978723404256,
+          "x": 1400,
+          "y": 380,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score_Title",
+          "persistentUuid": "a9533ce6-1147-498b-8c80-5d36d118f74c",
+          "width": 0,
+          "x": 144,
+          "y": 662,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "44baf6f9-b202-4284-9a76-5e87d871ff2a",
+          "width": 0,
+          "x": 265,
+          "y": 662,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Picture1.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Question",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 80,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Button1",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Outline",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "----"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Button2",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Outline",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "----"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Button3",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Outline",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "----"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Button4",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Outline",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "----"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score_Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Score:",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Button",
+            "children": [
+              {
+                "objectName": "Button1"
+              },
+              {
+                "objectName": "Button2"
+              },
+              {
+                "objectName": "Button3"
+              },
+              {
+                "objectName": "Button4"
+              }
+            ]
+          },
+          {
+            "folderName": "Score",
+            "children": [
+              {
+                "objectName": "Score_Title"
+              },
+              {
+                "objectName": "Score"
+              }
+            ]
+          },
+          {
+            "folderName": "Questions",
+            "children": [
+              {
+                "objectName": "Question"
+              }
+            ]
+          },
+          {
+            "folderName": "Background",
+            "children": [
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
+        ]
       },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QuestionSelect",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Buttons",
+                "Effect",
+                "\"Outline\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::SetWrapping"
+              },
+              "parameters": [
+                "Question",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::WrappingWidth"
+              },
+              "parameters": [
+                "Question",
+                "=",
+                "1600"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Question",
+                "=",
+                "SceneWindowWidth()/8"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Button Press",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Key/Button Commands"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "Button1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Confirm_03.aac",
+                    "",
+                    "75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ButtonPressed",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AnswerSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Buttons",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "Button2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Confirm_03.aac",
+                    "",
+                    "75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ButtonPressed",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AnswerSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Buttons",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "Button3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Confirm_03.aac",
+                    "",
+                    "75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ButtonPressed",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AnswerSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Buttons",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "Button4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Confirm_03.aac",
+                    "",
+                    "75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ButtonPressed",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "AnswerSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "Buttons",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Questions",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "VinlandGames",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "QuestionSelect",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Question",
+                            "Text",
+                            "=",
+                            "Questions.VinlandGames[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button1",
+                            "=",
+                            "VariableString(Answers.0[0])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button2",
+                            "=",
+                            "VariableString(Answers.0[1])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button3",
+                            "=",
+                            "VariableString(Answers.0[2])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button4",
+                            "=",
+                            "VariableString(Answers.0[3])",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "QuestionSelect",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Question",
+                            "Text",
+                            "=",
+                            "Questions.VinlandGames[1]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button1",
+                            "=",
+                            "VariableString(Answers.1[0])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button2",
+                            "=",
+                            "VariableString(Answers.1[1])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button3",
+                            "=",
+                            "VariableString(Answers.1[2])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                          },
+                          "parameters": [
+                            "Button4",
+                            "=",
+                            "VariableString(Answers.1[3])",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                          },
+                          "parameters": [
+                            "Buttons",
+                            "yes",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Answers",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "VinlandGames",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "QuestionSelect",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AnswerSelected",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Button2",
+                        "Effect",
+                        "\"Outline\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\confirmation_001.ogg",
+                        "3",
+                        "",
+                        "75",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Button2",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Points",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Player1"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "assets\\Buff 1.mp3",
+                                "1",
+                                "",
+                                "75",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "MainScore",
+                                "+",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Score",
+                                "Text",
+                                "=",
+                                "ToString(Variable(MainScore))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "AnswerSelected",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "QuestionSelect",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "!=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "assets\\Debuff 7.mp3",
+                                "2",
+                                "",
+                                "75",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "MainScore",
+                                "-",
+                                "25"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Score",
+                                "Text",
+                                "=",
+                                "ToString(Variable(MainScore))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "AnswerSelected",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "QuestionSelect",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "QuestionSelect",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "AnswerSelected",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Button2",
+                        "Effect",
+                        "\"Outline\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\confirmation_001.ogg",
+                        "3",
+                        "",
+                        "75",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Button2",
+                        "Effect",
+                        "\"Outline\"",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Points",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Player1"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "assets\\Buff 1.mp3",
+                                "1",
+                                "",
+                                "75",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "MainScore",
+                                "+",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Score",
+                                "Text",
+                                "=",
+                                "ToString(Variable(MainScore))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "AnswerSelected",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "QuestionSelect",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "!=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "assets\\Debuff 7.mp3",
+                                "2",
+                                "",
+                                "75",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "MainScore",
+                                "-",
+                                "25"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Score",
+                                "Text",
+                                "=",
+                                "ToString(Variable(MainScore))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "AnswerSelected",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "ButtonPressed",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "QuestionSelect",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -24526,7 +26723,36 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
@@ -47792,6 +50018,322 @@
                   "width": 184,
                   "x": 4,
                   "y": 30,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {}
+            },
+            {
+              "areaMaxX": 256,
+              "areaMaxY": 106,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+              "assetStoreOriginalName": "Grey Button",
+              "name": "Grey Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "Button",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 60,
+                  "color": {
+                    "b": 79,
+                    "g": 72,
+                    "r": 72
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Button",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 60,
+                    "lineHeight": 0,
+                    "color": "72;72;79"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Idle",
+                  "rightMargin": 16,
+                  "texture": "Grey Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "serializedBehavior": {
+                        "name": "ButtonFSM",
+                        "type": "PanelSpriteButton::ButtonFSM",
+                        "ShouldCheckHovering": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Hovered",
+                  "rightMargin": 16,
+                  "texture": "Grey Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior",
+                      "serializedBehavior": {
+                        "name": "Tween",
+                        "type": "Tween::TweenBehavior"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Pressed",
+                  "rightMargin": 16,
+                  "texture": "Grey Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 32,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 80,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Label",
+                  "persistentUuid": "d52675e5-4b81-4535-8e9a-d392ed684d6e",
+                  "width": 240,
+                  "x": 8,
+                  "y": 48,
                   "zOrder": 2,
                   "numberProperties": [],
                   "stringProperties": [],
