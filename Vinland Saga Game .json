@@ -3362,6 +3362,153 @@
         "name": "factanswers",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Background/q1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\q1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Background/q2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\q2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Background/q3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\q3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewPanelSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Background/UI board Medium  parchment.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\UI board Medium  parchment.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-wall-slide-00-1.3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer-wall-slide-00-1.3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-wall-slide-01-1.3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer-wall-slide-01-1.3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-wall-slide-00-1.4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer-wall-slide-00-1.4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-wall-slide-01-1.4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer-wall-slide-01-1.4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewPanelSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewPanelSprite3.png\"}",
+        "name": "NewPanelSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite37.png\"}",
+        "name": "NewSprite37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-hurt-00-1.3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"adventurer-hurt-00-1.3.png\",\"extension\":\".png\"}",
+        "name": "adventurer-hurt-00-1.3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-hurt-01-1.3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"adventurer-hurt-01-1.3.png\",\"extension\":\".png\"}",
+        "name": "adventurer-hurt-01-1.3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "adventurer-hurt-02-1.3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"adventurer-hurt-02-1.3.png\",\"extension\":\".png\"}",
+        "name": "adventurer-hurt-02-1.3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hurt14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hurt14",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3390,6 +3537,11 @@
       "name": "staticenmeyHealth",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "factIndex",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3415,7 +3567,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210663,
+        "zoomFactor": 0.5468750000000572,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3574,7 +3726,7 @@
           "width": 32,
           "x": -29,
           "y": -3,
-          "zOrder": 213,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3621,7 +3773,7 @@
           "layer": "",
           "name": "Platform_Ground",
           "persistentUuid": "13bffcf9-3eea-4b2a-84dd-cdd1f7b2ec10",
-          "width": 303,
+          "width": 432,
           "x": -2,
           "y": 707,
           "zOrder": 1,
@@ -3978,9 +4130,9 @@
           "layer": "",
           "name": "Platform_Ground",
           "persistentUuid": "7fe457f3-8778-40b6-9802-8760bd5fdc22",
-          "width": 48,
+          "width": 557,
           "x": -24,
-          "y": -14.5,
+          "y": -14,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4033,22 +4185,6 @@
           "x": 3289,
           "y": 109,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Character",
-          "persistentUuid": "2b763e03-48f7-493b-b490-28ced4531fee",
-          "width": 0,
-          "x": 37,
-          "y": 679,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4199,9 +4335,9 @@
           "name": "Background",
           "persistentUuid": "75ac5f08-5d02-4e78-8950-fd091df99e37",
           "width": 2457,
-          "x": -134,
+          "x": -133,
           "y": -77,
-          "zOrder": 2,
+          "zOrder": 500,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4210,75 +4346,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 120,
-          "keepRatio": true,
-          "layer": "",
-          "name": "maptiles",
-          "persistentUuid": "6b2f4a0a-2a9d-47c9-841f-ba5e53bdd547",
-          "width": 332,
-          "x": -29,
-          "y": 706,
-          "zOrder": 221,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":39,\"dimY\":15,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,3,3,3,3,1,1,1,1,7,7,7,7,7,1,1,1,7,7,7,7,7,7,1,1,1,1,10,10,10,10,1,1,1,1,1,11],[315,315,64,81,69,131,131,68,68,66,66,131,66,70,68,70,131,131,70,70,72,131,131,70,70,131,70,70,131,70,72,72,72,72,72,72,70,136,74],[126,127,66,131,66,131,81,81,128,131,131,66,66,128,131,66,66,66,131,66,131,128,66,66,128,66,128,66,131,131,131,131,131,131,72,128,128,136,74],[315,190,191,191,191,191,191,191,191,191,70,70,191,191,70,191,66,66,66,191,191,191,191,191,66,191,66,66,66,131,66,131,66,131,66,66,191,136,74],[315,190,191,191,191,191,191,191,191,191,191,191,70,70,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,66,191,136,74],[63,316,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,191,66,191,191,191,191,191,191,191,191,191,191,191,191,136,74],[315,442,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,442,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,316,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,442,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,568,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,632,317,317,317,317,317,317,317,317,317,633,633,633,633,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[567,632,632,632,443,443,443,443,443,443,632,443,443,632,632,632,443,632,443,632,443,443,443,443,443,443,443,443,443,632,443,443,443,443,443,632,443,632,567],[567,632,443,443,443,443,443,443,632,632,632,632,632,632,632,443,443,632,632,632,632,632,632,632,632,632,632,443,443,632,443,443,443,443,443,443,443,632,567],[693,694,694,694,694,694,694,694,694,694,699,694,694,699,699,699,699,699,699,699,699,699,699,699,699,702,694,694,699,694,694,699,694,694,694,699,694,694,704]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "",
-          "name": "maptiles",
-          "persistentUuid": "5340bce0-e1d6-4dae-927b-619700578bc2",
-          "width": 79,
-          "x": 463,
-          "y": 561,
-          "zOrder": 222,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":14,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[30,1171,1171,1172,1174,1172,1171,1174,1171,1172,1171,1172,1174,32],[93,1793,1793,1235,1235,1236,1289,1290,1237,1299,1237,1237,1237,95],[156,2000,1793,1297,85,1299,2483,2484,1299,1297,2550,2550,2000,158],[-1,156,2251,2251,2251,2251,2251,2251,2251,614,2251,1180,158,-1],[-1,-1,1089,1090,1090,1090,1090,1090,1090,1090,1090,1091,-1,-1]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 116,
-          "keepRatio": true,
-          "layer": "",
-          "name": "flooting_floor",
-          "persistentUuid": "5dcc8389-bb13-4346-97a9-07341dffd1e5",
-          "width": 116,
-          "x": 444,
-          "y": 524,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 126,
+          "height": 77,
           "keepRatio": true,
           "layer": "",
           "name": "flooting_Floor2",
           "persistentUuid": "4bfa69ca-ced7-422a-bf17-284504081a5d",
-          "width": 126,
-          "x": 322,
-          "y": 555,
+          "width": 77,
+          "x": 471,
+          "y": 585,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4288,14 +4363,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 49,
+          "height": 29,
           "keepRatio": true,
           "layer": "",
           "name": "maptiles",
           "persistentUuid": "985d9bdb-d96a-48eb-a540-dd743419d554",
-          "width": 85,
-          "x": 342,
-          "y": 597,
+          "width": 51,
+          "x": 484,
+          "y": 611,
           "zOrder": 223,
           "numberProperties": [],
           "stringProperties": [
@@ -4869,7 +4944,7 @@
           "width": 0,
           "x": 3593,
           "y": 7,
-          "zOrder": 229,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -4891,7 +4966,7 @@
           "width": 130,
           "x": 4744,
           "y": 62,
-          "zOrder": 230,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -5198,7 +5273,7 @@
           "width": 0,
           "x": 4762,
           "y": 301,
-          "zOrder": 219,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -5242,7 +5317,7 @@
           "width": 93,
           "x": 3311,
           "y": 29,
-          "zOrder": 237,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -5261,8 +5336,8 @@
           "layer": "",
           "name": "wooden",
           "persistentUuid": "9168db4c-7c17-43a7-bf7b-4fd64033cf62",
-          "width": 36,
-          "x": 3336,
+          "width": 38,
+          "x": 3334,
           "y": 41,
           "zOrder": 238,
           "numberProperties": [],
@@ -5285,7 +5360,7 @@
           "width": 0,
           "x": 2325,
           "y": -47,
-          "zOrder": 239,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -5350,7 +5425,7 @@
           "width": 1316,
           "x": 4678,
           "y": -44,
-          "zOrder": 239,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -5859,6 +5934,265 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "a6b4b469-cef7-4a6b-88f0-6e2a95ca5d03",
+          "width": 49,
+          "x": 3334,
+          "y": 16,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "32c301da-3cd8-4c28-a77b-bbc82b5a24bf",
+          "width": 0,
+          "x": 98,
+          "y": 651,
+          "zOrder": 262,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fact",
+          "persistentUuid": "a1b6b2fb-cb0e-4e2d-b446-df8118137b97",
+          "width": 0,
+          "x": 353,
+          "y": 491,
+          "zOrder": 262,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "",
+          "name": "close",
+          "persistentUuid": "972a03f8-9855-47e8-b740-9cfa151dfdaf",
+          "width": 11,
+          "x": 279,
+          "y": 618,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PopupBg",
+          "persistentUuid": "82d246c5-cbc2-4ade-ab9a-f833479f5ad0",
+          "width": 158,
+          "x": 143,
+          "y": 609,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "quotes",
+          "persistentUuid": "7a364aa8-ea7d-44a3-9892-bf41a5ce4976",
+          "width": 0,
+          "x": 155,
+          "y": 632,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Ground",
+          "persistentUuid": "b9301177-d9d0-42b4-8269-f5b4cbb549ad",
+          "width": 46,
+          "x": 3337,
+          "y": -23,
+          "zOrder": 263,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Character",
+          "persistentUuid": "072d9740-db0e-4add-87e7-603295e968a0",
+          "width": 0,
+          "x": 26,
+          "y": 113,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Ground",
+          "persistentUuid": "faa9a86d-7015-424b-87c4-47b8c527fef3",
+          "width": 0,
+          "x": 44,
+          "y": 260,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 10,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Ground",
+          "persistentUuid": "732f65bf-130c-45a7-848f-0b360806a507",
+          "width": 557,
+          "x": -49,
+          "y": 281,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "maptiles",
+          "persistentUuid": "7d12436e-0409-4ec8-a484-384e0013dc5f",
+          "width": 444,
+          "x": -16,
+          "y": 707,
+          "zOrder": 221,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":39,\"dimY\":15,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[15,1,1,3,3,1338,37,37,1338,1,1,7,7,7,7,7,1,1,1,7,7,7,7,7,1338,37,37,37,1338,10,10,10,10,1,1,1,1,1,26],[315,79,64,81,69,79,79,79,1899,66,66,131,66,70,68,70,131,131,70,70,72,131,131,70,70,131,70,70,131,70,72,72,72,72,72,72,70,136,74],[126,127,128,129,130,131,132,129,133,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,128,136,74],[315,190,191,191,191,191,191,191,191,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,191,136,74],[315,190,191,191,191,191,191,191,191,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,191,136,74],[63,316,191,191,191,191,2612,2613,191,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,2612,2613,256,256,256,191,136,74],[315,442,317,317,317,317,2675,2676,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,2675,2676,317,317,317,317,136,74],[63,442,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,316,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,2612,2613,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,442,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,2675,2676,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,568,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[63,632,317,317,317,317,317,317,317,317,317,633,633,633,633,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,136,74],[567,632,632,632,443,443,443,443,443,443,632,443,443,632,632,632,443,632,443,632,443,443,443,443,443,443,443,443,443,632,443,443,443,443,443,632,443,632,567],[567,632,443,443,443,443,443,443,632,632,632,632,632,632,632,443,443,632,632,632,632,632,632,632,632,632,632,443,443,632,443,443,443,443,443,443,443,632,567],[693,694,694,694,694,694,694,694,694,694,699,694,694,699,699,699,699,699,699,699,699,699,699,699,699,702,694,694,699,694,694,699,694,694,694,699,694,694,704]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Ground",
+          "persistentUuid": "87c84203-9ead-4822-a660-0ad599fb7572",
+          "width": 89,
+          "x": -2,
+          "y": 140,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 840,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wooden",
+          "persistentUuid": "fe1ce8e9-f792-413a-8ae0-2eaf372a624a",
+          "width": 119,
+          "x": -33,
+          "y": -4,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":8,\"tileHeight\":8,\"dimX\":14,\"dimY\":105,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1718,1719,1721,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,1722,1723,1724,1725,1724,1725,1724,1726,1725,1727],[1768,1769,1771,1871,1772,1773,1774,1775,1774,1775,1774,1775,1776,1777],[1818,1819,1821,1821,1822,1823,1824,1825,1826,1822,1823,1824,1825,1827],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1718,1719,1720,1721,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1770,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1820,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1868,1869,1870,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1718,1719,1721,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1768,1769,1771,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1818,1819,1821,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1868,1869,1871,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Archer",
+          "persistentUuid": "fbfb083a-27c4-4823-89da-41cf4b3baced",
+          "width": 0,
+          "x": 324,
+          "y": 652,
+          "zOrder": 501,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "player_State_Text",
+          "persistentUuid": "3764fbcb-5e75-450f-8a7b-46ac7bb722aa",
+          "width": 0,
+          "x": 9,
+          "y": 57,
+          "zOrder": 502,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5900,14 +6234,13 @@
               "WasJumpKeyReleased": false
             },
             {
-              "isFolded": true,
               "name": "HorizontalDash",
               "type": "AdvancedJump::HorizontalDash",
               "PlatformerCharacter": "PlatformerObject",
               "PlatformerConfigurationStack": "PlatformerConfigurationStack",
               "DashInitialSpeed": 500,
               "DashSustainDurationMin": 0,
-              "DashSustainDurationMax": 0.25,
+              "DashSustainDurationMax": 0.05,
               "DashSustainAcceleration": 1500,
               "DashSustainSpeedMax": 750,
               "DashSustainGravity": 0,
@@ -6006,7 +6339,7 @@
               "JumpTimeFrame": 0.125,
               "WallJumpSpeedX": 300,
               "WallJumpAccelerationX": 1500,
-              "SideSpeedSustainTime": 0.2,
+              "SideSpeedSustainTime": 0.05,
               "WallSlidingGravity": 500,
               "WallSlidingMaxFallingSpeed": 350,
               "WallSlidingSpeedAbsorption": 350,
@@ -7952,7 +8285,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.25,
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8469,6 +8802,163 @@
                           },
                           {
                             "x": 14.5,
+                            "y": 36
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "adventurer-hurt-00-1.3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 25,
+                        "y": 18.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 17,
+                            "y": 36
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hurt14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 25,
+                        "y": 18.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 17,
+                            "y": 36
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "adventurer-hurt-01-1.3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 25,
+                        "y": 18.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 17,
+                            "y": 36
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "adventurer-hurt-02-1.3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 25,
+                        "y": 18.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.5,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 12.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 17,
                             "y": 36
                           }
                         ]
@@ -17116,7 +17606,7 @@
             "rowCount": 50,
             "columnCount": 50,
             "tileSize": 8,
-            "tilesWithHitBox": "1722,1772,1723,1773,1724,1774"
+            "tilesWithHitBox": "46,1720,1770,1820,1721,1771,1821,1822,1823,1824,1725,1775,1825,1726,1776,1826,1727,1777,1827,1722,1723,1724,1774,1773,1772"
           }
         },
         {
@@ -17294,7 +17784,30 @@
           "name": "fact",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Facts",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Vikings wrote using a system of symbols called runes"
+                },
+                {
+                  "type": "string",
+                  "value": "Viking used to write on stones"
+                },
+                {
+                  "type": "string",
+                  "value": "Runestones were used by Vikings to honor heroes and important events."
+                },
+                {
+                  "type": "string",
+                  "value": "Vikings believed in Norse gods like Odin, Thor, and Freyja, each representing different parts of life."
+                }
+              ]
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -17303,7 +17816,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -17358,7 +17871,79 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "factanswers",
+                      "image": "assets\\Background\\q1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 43
+                          },
+                          {
+                            "x": 19,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Background\\q2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 14
+                          },
+                          {
+                            "x": 44,
+                            "y": 43
+                          },
+                          {
+                            "x": 19,
+                            "y": 43
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Background\\q3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17397,6 +17982,174 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": true,
+          "name": "quotes",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 242,
+            "g": 242,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "34;33;33",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "lineHeight": 0,
+            "color": "248;242;242"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 50,
+          "leftMargin": 0,
+          "name": "PopupBg",
+          "rightMargin": 0,
+          "texture": "assets\\Background\\UI board Medium  parchment.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "close",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite36",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "player_State_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -17404,6 +18157,9 @@
         "children": [
           {
             "objectName": "Character"
+          },
+          {
+            "objectName": "player_State_Text"
           },
           {
             "objectName": "player"
@@ -17497,6 +18253,15 @@
           },
           {
             "objectName": "fact"
+          },
+          {
+            "objectName": "quotes"
+          },
+          {
+            "objectName": "PopupBg"
+          },
+          {
+            "objectName": "close"
           }
         ]
       },
@@ -17617,6 +18382,59 @@
               },
               "parameters": [
                 "WalkingEnemyHitbox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "quotes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PopupBg"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "close"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "health",
+                "Text",
+                "=",
+                "\"Health:\"+ PlayerHealth"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "player_State_Text",
+                "Text",
+                "=",
+                "\"Player State: \"+ Character.Player_State"
               ]
             }
           ]
@@ -18297,7 +19115,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Attack with multiple animations(PLayer Attack Logic)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18612,6 +19429,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18742,6 +19560,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -18962,6 +19781,19 @@
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Dash logic"
+                    },
+                    {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -18972,51 +19804,36 @@
                             "",
                             "\"c\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                          },
+                          "parameters": [
+                            "Character",
+                            "HorizontalDash",
+                            ""
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
                               "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Character",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                                "value": "AdvancedJump::HorizontalDash::IsDashing"
                               },
                               "parameters": [
                                 "Character",
                                 "HorizontalDash",
                                 ""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Character",
-                                "Player_State",
-                                "=",
-                                "\"slide\""
-                              ]
-                            },
+                            }
+                          ],
+                          "actions": [
                             {
                               "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -19046,113 +19863,12 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                    "value": "AdvancedJump::HorizontalDash::AbortDash"
                                   },
                                   "parameters": [
                                     "Character",
-                                    "Animation",
-                                    "=",
-                                    "\"idle\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetStringObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Character",
-                                    "Player_State",
-                                    "=",
-                                    "\"idle\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Character",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
-                              },
-                              "parameters": [
-                                "Character",
-                                "HorizontalDash",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Character",
-                                "Player_State",
-                                "=",
-                                "\"slide\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Character",
-                                "Animation",
-                                "=",
-                                "\"slide\""
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                                  },
-                                  "parameters": [
-                                    "Character",
-                                    "Animation"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Character",
-                                    "Animation",
-                                    "=",
-                                    "\"idle\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetStringObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Character",
-                                    "Player_State",
-                                    "=",
-                                    "\"idle\""
+                                    "HorizontalDash",
+                                    ""
                                   ]
                                 }
                               ]
@@ -20529,6 +21245,17 @@
                     "=",
                     "\"Health: \"+ PlayerHealth"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"hurt\""
+                  ]
                 }
               ],
               "events": [
@@ -20676,6 +21403,17 @@
                     "=",
                     "\"Health: \" + PlayerHealth"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"hurt\""
+                  ]
                 }
               ],
               "events": [
@@ -20690,6 +21428,15 @@
                         "Walking_Enemies.X()",
                         ">",
                         "Character.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Animation"
                       ]
                     }
                   ],
@@ -20750,6 +21497,7 @@
               "comment": "from boss"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22339,7 +23087,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Archer behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22690,6 +23437,17 @@
                             "=",
                             "\"Health: \"+ PlayerHealth"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Character",
+                            "Animation",
+                            "=",
+                            "\"hurt\""
+                          ]
                         }
                       ],
                       "events": [
@@ -22765,6 +23523,33 @@
                                 ""
                               ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Character",
+                            "Animation"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Character",
+                            "Animation",
+                            "=",
+                            "\"idle\""
                           ]
                         }
                       ]
@@ -22944,40 +23729,377 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Fact logic"
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Fact logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Fact logic"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "fact",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "quotes",
+                    "fact.X()",
+                    "fact.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "Text",
+                    "=",
+                    "\" \"+ fact.Facts[factIndex]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "factIndex",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "fact",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "fact",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "PopupBg",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "close",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "quotes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "Text",
+                    "=",
+                    "\" \"+fact.Facts[factIndex]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "factIndex",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PopupBg",
+                    "=",
+                    "fact.X()",
+                    "=",
+                    "fact.Y()-50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "close",
+                    "=",
+                    "PopupBg.X() + PopupBg.Width() - 25",
+                    "=",
+                    "PopupBg.Y()+8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "PopupBg",
+                    "Resizable",
+                    "quotes.Width()+50",
+                    "quotes.Height() + 15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "fact",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::SetWrapping"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "=",
+                    "PopupBg.X()+5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "quotes",
+                    "=",
+                    "PopupBg.Y()+10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "close",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PopupBg"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "quotes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "close"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "fact",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Character",
+                "PlatformerObject"
+              ]
+            },
             {
               "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
                 "Character",
-                "fact",
+                "Platform_Ground",
                 "",
                 "",
                 ""
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCanNotAirJump"
+              },
+              "parameters": [
+                "Character",
+                "PlatformerObject"
+              ]
+            }
+          ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "AdvancedJump::HorizontalDash::IsDashing"
+              },
+              "parameters": [
+                "Character",
+                "HorizontalDash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerHealth",
+                "+",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -23233,6 +24355,10 @@
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         },
         {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
           "name": "WallJump",
           "type": "AdvancedJump::WallJump"
         }
@@ -23340,7 +24466,6 @@
         {
           "assetStoreId": "50bc5fdef6bedec09c3db84b6e6c2498d86d55cc8421e8bf47fc002e947338c1",
           "name": "TinyBrownButton",
-          "persistentUuid": "891523b7-2875-41ec-ac00-7ec1274cd325",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Tiny Brown Button3",
           "variables": [],
@@ -23348,7 +24473,7 @@
           "behaviors": [],
           "content": {
             "LabelText": "Play Again!",
-            "PressedLabelOffsetY": 18
+            "PressedLabelOffsetY": 5
           }
         }
       ],
@@ -23395,7 +24520,7 @@
                 "TinyBrownButton",
                 "Resizable",
                 "120",
-                "60"
+                "70"
               ]
             }
           ]
@@ -23446,22 +24571,32 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "PlayerHealth",
-                "=",
-                "5"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"Game Scene\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerHealth",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "factIndex",
+                "=",
+                "0"
               ]
             }
           ]
@@ -23613,14 +24748,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 256,
           "keepRatio": true,
           "layer": "",
           "name": "Title",
           "persistentUuid": "ddd56557-f04e-4f4e-b90e-f41d08fd1cad",
-          "width": 0,
-          "x": 169,
+          "width": 1034,
+          "x": 166,
           "y": 367,
           "zOrder": 2,
           "numberProperties": [],
@@ -23983,7 +25119,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38499657213597727,
+        "zoomFactor": 0.6765639321678766,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -24042,16 +25178,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 63.333333333333336,
+          "height": 63.333333333333336,
           "keepRatio": true,
           "layer": "",
           "name": "Quit",
           "persistentUuid": "484be707-d360-4062-ad4e-b684459107d6",
-          "width": 0,
-          "x": 669,
-          "y": 411,
+          "width": 190,
+          "x": 655,
+          "y": 523,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 66.66666666666666,
+          "height": 66.66666666666666,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Controls",
+          "persistentUuid": "707b37b4-9864-4d1d-bc74-b494ce7cefd4",
+          "width": 200,
+          "x": 652,
+          "y": 425,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24196,6 +25350,24 @@
             "HoveredFadeOutDuration": 0.2,
             "LabelText": "Quit"
           }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Controls",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Controls"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -24212,6 +25384,9 @@
           },
           {
             "objectName": "Quit"
+          },
+          {
+            "objectName": "Controls"
           }
         ]
       },
@@ -24237,6 +25412,32 @@
               "parameters": [
                 "",
                 "\"Game Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Controls",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"control\"",
                 ""
               ]
             }
@@ -24527,6 +25728,788 @@
         }
       ],
       "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "control",
+      "name": "control",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.48559953906852493,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1034,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "12f6f61b-859e-43d4-8249-d8e81d4581fe",
+          "width": 2165,
+          "x": -32,
+          "y": -82,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "0db9d9ab-a7c1-4b40-8de7-bb3b2ea68dc8",
+          "width": 71,
+          "x": 191,
+          "y": 204,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": true,
+          "depth": 1,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "389c2f88-3ff7-47e3-980b-67deae1150b2",
+          "width": 71,
+          "x": 191,
+          "y": 318,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedievalButtonBeige",
+          "persistentUuid": "ae6061fa-81ae-4115-bd01-406e0e563896",
+          "width": 0,
+          "x": 131,
+          "y": 439,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedievalButtonBeige2",
+          "persistentUuid": "c45ce5ae-e22b-43c8-b8cf-be4087d931c9",
+          "width": 0,
+          "x": 131,
+          "y": 533,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedievalButtonBeige3",
+          "persistentUuid": "e3f53286-4dc6-419e-b7a6-0562995e447c",
+          "width": 0,
+          "x": 131,
+          "y": 628,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Controls",
+          "persistentUuid": "bfe5e183-199b-4af5-9057-ea083ece8655",
+          "width": 297,
+          "x": 350,
+          "y": 324,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "87082830-0a98-4587-beb3-4291dee08c82",
+          "width": 0,
+          "x": 350,
+          "y": 220,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "99d5ec60-300a-428f-a467-651484d0cc57",
+          "width": 0,
+          "x": 350,
+          "y": 450,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText3",
+          "persistentUuid": "7cd935bc-1580-462e-9af4-833cc8d49f74",
+          "width": 0,
+          "x": 350,
+          "y": 546,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText4",
+          "persistentUuid": "d82e2d50-a4ce-47ff-b34a-5901e4474e92",
+          "width": 0,
+          "x": 350,
+          "y": 641,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "8ae5dfa0-b7ed-4800-a916-15be391e6be0",
+          "width": 0,
+          "x": 53,
+          "y": 37,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Background",
+          "rightMargin": 0,
+          "texture": "NewPanelSprite3",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite37",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "MedievalButtonBeige",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Space"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "MedievalButtonBeige2",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "C"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "MedievalButtonBeige3",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "X"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Controls",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Move Left\n",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 61,
+            "g": 102,
+            "r": 150
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Move Left\n",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "150;102;61"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Move Right",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 61,
+            "g": 102,
+            "r": 150
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Move Right",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "150;102;61"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Jump (For double jump press Space while in Jump)",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 61,
+            "g": 102,
+            "r": 150
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jump (For double jump press Space while in Jump)",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "150;102;61"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Horizontal Slide",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 61,
+            "g": 102,
+            "r": 150
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Horizontal Slide",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "150;102;61"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Attack",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 73,
+            "g": 114,
+            "r": 162
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Attack",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "162;114;73"
+          }
+        },
+        {
+          "assetStoreId": "1cacfe2713f10642e8079542f28282d52f1bf46ae2dc27dc6c291a2970c90971",
+          "name": "Back",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Medieval Button Beige",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 10,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Back"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "MedievalButtonBeige"
+          },
+          {
+            "objectName": "MedievalButtonBeige2"
+          },
+          {
+            "objectName": "MedievalButtonBeige3"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Controls"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "NewText2"
+          },
+          {
+            "objectName": "NewText3"
+          },
+          {
+            "objectName": "NewText4"
+          },
+          {
+            "objectName": "Back"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Back",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
@@ -46258,11 +48241,23 @@
               "fullName": "Label text",
               "functionType": "ExpressionAndCondition",
               "name": "LabelText",
-              "sentence": "the label text",
+              "sentence": "",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::Value"
+                      },
+                      "parameters": [
+                        "Labels",
+                        "Scale",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
