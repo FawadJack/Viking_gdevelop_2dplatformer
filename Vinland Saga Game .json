@@ -24546,7 +24546,6 @@
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "VinlandGames",
               "type": "array",
               "children": [
@@ -24615,7 +24614,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "Answers",
           "type": "structure",
           "children": [
@@ -24625,11 +24623,11 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "His father’s death"
+                  "value": "Desire to become a merchant"
                 },
                 {
                   "type": "string",
-                  "value": "Desire to become a merchant"
+                  "value": "His father’s death"
                 },
                 {
                   "type": "string",
@@ -24647,19 +24645,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "“A true warrior needs no sword.”"
+                  "value": "A Viking poet"
                 },
                 {
                   "type": "string",
-                  "value": "“Strength decides everything.”"
+                  "value": "A powerful Jomsviking warrior"
                 },
                 {
                   "type": "string",
-                  "value": "“Revenge is honorable.”"
+                  "value": "A blacksmith who crafted royal weapons"
                 },
                 {
                   "type": "string",
-                  "value": "“Never trust anyone outside the clan.”"
+                  "value": "A shipbuilder for the Danish fleet"
                 }
               ]
             },
@@ -24669,19 +24667,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Karls (free farmers)"
+                  "value": "A ritual sacrifice"
                 },
                 {
                   "type": "string",
-                  "value": "Thralls (slaves)"
+                  "value": "A carved stone monumen"
                 },
                 {
                   "type": "string",
-                  "value": "Jarls (nobility)"
+                  "value": "A lawmaking assembly"
                 },
                 {
                   "type": "string",
-                  "value": "Völvas (seers)"
+                  "value": "A type of spear"
                 }
               ]
             },
@@ -24691,19 +24689,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "A peaceful settlement free from slavery and war"
+                  "value": "Thorfinn’s older brother"
                 },
                 {
                   "type": "string",
-                  "value": "A massive Viking fortress"
+                  "value": "A rival farmer"
                 },
                 {
                   "type": "string",
-                  "value": "A gold mining colony"
+                  "value": "The leader of a mercenary band"
                 },
                 {
                   "type": "string",
-                  "value": "A monastery for travelers"
+                  "value": "A king of Norway"
                 }
               ]
             },
@@ -24713,19 +24711,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Longship"
+                  "value": "Christianity"
                 },
                 {
                   "type": "string",
-                  "value": "Galleon"
+                  "value": "Buddhism"
                 },
                 {
                   "type": "string",
-                  "value": "Ironclad"
+                  "value": "Shintoism"
                 },
                 {
                   "type": "string",
-                  "value": "Trireme"
+                  "value": "Jainism"
                 }
               ]
             },
@@ -24735,19 +24733,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Overcoming hatred and guilt"
+                  "value": "A fortress for warriors"
                 },
                 {
                   "type": "string",
-                  "value": "Learning to command an army"
+                  "value": "A peaceful settlement without violence"
                 },
                 {
                   "type": "string",
-                  "value": "Protecting treasure from rivals"
+                  "value": "A training camp for young fighters"
                 },
                 {
                   "type": "string",
-                  "value": "Becoming a master sailor"
+                  "value": "A new Viking capital"
                 }
               ]
             },
@@ -24757,19 +24755,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Hope for a new world built on peace"
+                  "value": "Win at all costs"
                 },
                 {
                   "type": "string",
-                  "value": "A kingdom of endless warriors"
+                  "value": "Revenge is justice."
                 },
                 {
                   "type": "string",
-                  "value": "A land of divine punishment"
+                  "value": "A warrior must seek glory."
                 },
                 {
                   "type": "string",
-                  "value": "A treasure-rich paradise"
+                  "value": "No one has any enemies"
                 }
               ]
             },
@@ -24779,19 +24777,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Trading across Europe and Asia"
+                  "value": "Greed"
                 },
                 {
                   "type": "string",
-                  "value": "Building massive stone monuments"
+                  "value": "Vengeance"
                 },
                 {
                   "type": "string",
-                  "value": "Using cannons in naval warfare"
+                  "value": "Pacifism and forgiveness"
                 },
                 {
                   "type": "string",
-                  "value": "Establishing centralized kingdoms"
+                  "value": "Loyalty to Denmark"
                 }
               ]
             },
@@ -24801,19 +24799,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Askeladd"
+                  "value": "Galleons"
                 },
                 {
                   "type": "string",
-                  "value": "Canute"
+                  "value": "Longships"
                 },
                 {
                   "type": "string",
-                  "value": "Floki"
+                  "value": "War canoes"
                 },
                 {
                   "type": "string",
-                  "value": "Bjorn"
+                  "value": "Catamarans"
                 }
               ]
             },
@@ -24823,19 +24821,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "He gives up violence to become a peaceful farmer"
+                  "value": "Lack of iron"
                 },
                 {
                   "type": "string",
-                  "value": "He becomes a Viking king"
+                  "value": "Cold climate and need for new farmland"
                 },
                 {
                   "type": "string",
-                  "value": "He becomes a traveling bard"
+                  "value": "Trade restrictions from England"
                 },
                 {
                   "type": "string",
-                  "value": "He joins a monastery"
+                  "value": "Interest in Greek philosophy"
                 }
               ]
             },
@@ -24845,19 +24843,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "A fertile land far west, associated with North America"
+                  "value": "No slaves, no kings"
                 },
                 {
                   "type": "string",
-                  "value": "A land of sacred Viking burial mounds"
+                  "value": "A true warrior does not need a sword"
                 },
                 {
                   "type": "string",
-                  "value": "A snowy mountain homeland"
+                  "value": "Strength decides everything"
                 },
                 {
                   "type": "string",
-                  "value": "A mythical island ruled by gods"
+                  "value": "Glory is greater than life"
                 }
               ]
             },
@@ -24867,19 +24865,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "The cycle of violence and forgiveness"
+                  "value": "Constantinople"
                 },
                 {
                   "type": "string",
-                  "value": "The superiority of Viking bloodlines"
+                  "value": "Hedeby"
                 },
                 {
                   "type": "string",
-                  "value": "The importance of strict loyalty to violence"
+                  "value": "Birka"
                 },
                 {
                   "type": "string",
-                  "value": "The value of hoarding treasure"
+                  "value": "Baghdad"
                 }
               ]
             },
@@ -24889,19 +24887,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Both mentor and enemy"
+                  "value": "Conquering Normandy"
                 },
                 {
                   "type": "string",
-                  "value": "His long-lost brother"
+                  "value": "Discovering Iceland"
                 },
                 {
                   "type": "string",
-                  "value": "A wandering healer"
+                  "value": "Reaching Vinland in North America"
                 },
                 {
                   "type": "string",
-                  "value": "A rival farmer"
+                  "value": "Becoming King of Denmark"
                 }
               ]
             },
@@ -24911,19 +24909,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "The Baltic Sea to Constantinople"
+                  "value": "Whether to return to battle with Einar"
                 },
                 {
                   "type": "string",
-                  "value": "The Silk Road through India"
+                  "value": "Whether violence can ever lead to peace"
                 },
                 {
                   "type": "string",
-                  "value": "The Roman Mediterranean coast"
+                  "value": "Whether to join a new Jomsviking army"
                 },
                 {
                   "type": "string",
-                  "value": "The Sahara desert caravan path"
+                  "value": "Whether to trade slaves for supplies"
                 }
               ]
             },
@@ -24933,19 +24931,19 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "He realizes violence creates endless suffering"
+                  "value": "Silk robes"
                 },
                 {
                   "type": "string",
-                  "value": "He loses the ability to fight"
+                  "value": "Spices from India"
                 },
                 {
                   "type": "string",
-                  "value": "He discovers a hidden prophecy"
+                  "value": "Furs and amber"
                 },
                 {
                   "type": "string",
-                  "value": "He makes a vow to become a king"
+                  "value": "Gunpowder"
                 }
               ]
             }
